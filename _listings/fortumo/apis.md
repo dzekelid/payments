@@ -1,0 +1,43 @@
+---
+name: Fortumo
+description: Fortumo, founded in 2007, is the most developer-friendly mobile payments
+  provider. We enable app and game developers to monetize their users through mobile
+  operator billing in more than 80 countries. Wersquo;ve got some pretty cool features
+  like self-service signup and instant activation - as well as seamless payment flow
+  that converts like magic. No wonder that our services are used by some of the most
+  awesome developers around.
+image: ""
+x-kinRank: "9"
+x-alexaRank: ""
+tags:
+- Telco
+- Stack Network
+- SMS
+- Payments
+- Payment API
+- Mobile
+- Billing
+created: "2018-02-25"
+modified: "2018-02-25"
+url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/fortumo/apis.yaml
+specificationVersion: "0.14"
+apis: []
+x-common:
+- type: x-blog
+  url: http://blog.fortumo.com
+- type: x-blog-rss
+  url: http://blog.fortumo.com/feed/
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/fortumo
+- type: x-github
+  url: https://github.com/fortumo
+- type: x-twitter
+  url: https://twitter.com/fortumo
+- type: x-website
+  url: http://fortumo.com/api
+include: []
+maintainers:
+- FN: Kin Lane
+  x-twitter: apievangelist
+  email: info@apievangelist.com
+---
