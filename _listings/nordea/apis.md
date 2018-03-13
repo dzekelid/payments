@@ -25,7 +25,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/nordea/payments-sepa-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/nordea/payments-sepa-paymentid-get.md
 x-common:
 - type: x-blog
   url: https://medium.com/@NordeaOpenBanking
