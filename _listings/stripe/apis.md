@@ -33,7 +33,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/payments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/payments-payment-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
