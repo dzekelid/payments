@@ -20,8 +20,8 @@ tags:
 - Change Log
 - Billing
 - API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/transfers-transfer-reversals-id-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/stripe/payments-get.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
