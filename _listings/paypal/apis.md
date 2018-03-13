@@ -20,8 +20,8 @@ tags:
 - Hypermedia
 - Getting Started
 - Billing
-created: "2018-02-25"
-modified: "2018-02-25"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/paypal/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -34,7 +34,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/paypal/adaptivepayments-pay-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/paypal/permissions-getadvancedpersonaldata-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
