@@ -14,9 +14,9 @@ tags:
 - Meetups
 - Media
 - Events
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/meetup/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Meetup
@@ -28,7 +28,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/meetup/urlname-events-id-payments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlname-events-id-payments-post.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
