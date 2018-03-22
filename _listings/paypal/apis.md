@@ -34,7 +34,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptiveaccounts-addbankaccount-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptiveaccounts-createaccount-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
