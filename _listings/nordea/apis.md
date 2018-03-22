@@ -11,9 +11,9 @@ x-alexaRank: ""
 tags:
 - UK Banks
 - ATMs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/nordea/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Nordea
@@ -25,7 +25,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/nordea/payments-sepa-paymentid-confirm-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/payments-sepa-get.md
 x-common:
 - type: x-blog
   url: https://medium.com/@NordeaOpenBanking
