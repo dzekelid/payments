@@ -34,7 +34,7 @@ apis:
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getfundingplans-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getshippingaddresses-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
