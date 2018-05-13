@@ -1,11 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Meetup
-  description: 'The Meetup API provides simple RESTful HTTP and streaming interfaces
-    for exploring and interacting Meetup platform from your own apps. The API is a
-    set of core methods and a common request format. These are combined to form a
-    URL that returns the information you want. '
+  title: Meetup Event Payments
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
   version: 1.0.0
 host: api.meetup.com
 basePath: /
@@ -24,11 +24,11 @@ paths:
       operationId: events
       parameters:
       - in: query
-        name: '*amount'
+        name: amount
         description: The monetary amount of money the member submitted
         type: string
       - in: query
-        name: '*member'
+        name: member
         description: Member Id of member who made a payment
         type: string
       - in: query
