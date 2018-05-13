@@ -1,9 +1,13 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Preapproval
+  description: "Use the Preapproval API operation to set up an agreement between yourself
+    and a sender for making payments on the sender\u2019s behalf. You set up a preapprovals
+    for a specific maximum amount over a specific period of time and, optionally,
+    by any of the following constraints: the number of payments, a maximum per-payment
+    amount, a specific day of the week or the month, and whether or not a PIN is required
+    for each payment request."
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
