@@ -35,17 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Set Payment Options
-  description: "You use the SetPaymentOptions API operation to specify settings for
-    a payment of the actionType CREATE. \n\t\t\t\t\tThis actionType is specified in
-    the PayRequest message."
+- name: Paypal Get Payment Options
+  description: You use the GetPaymentOptions API operation to retrieve the payment
+    options passed with the SetPaymentOptionsRequest.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-setpaymentoptions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getpaymentoptions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
