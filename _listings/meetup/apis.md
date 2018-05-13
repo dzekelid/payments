@@ -29,7 +29,37 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlname-events-id-payments-post.md
+- name: Meetup Event Payments
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
+  humanURL: http://www.meetup.com/
+  baseURL: https://api.meetup.com//
+  tags: Payments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlname-events-id-payments-post.md
 x-common:
+- type: x-base
+  url: http://api.meetup.com
+- type: x-developer
+  url: http://www.meetup.com/meetup_api/
+- type: x-github
+  url: https://github.com/meetup
+- type: x-pricing
+  url: http://www.meetup.com/pricing/
+- type: x-privacy
+  url: http://www.meetup.com/privacy/
+- type: x-support
+  url: http://www.meetup.com/help/
+- type: x-terms-of-service
+  url: http://www.meetup.com/terms/
+- type: x-twitter
+  url: https://twitter.com/MeetupAPI
+- type: x-website
+  url: http://www.meetup.com/
 - type: x-base
   url: http://api.meetup.com
 - type: x-developer
