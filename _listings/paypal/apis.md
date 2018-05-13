@@ -35,17 +35,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Preapproval Details
-  description: "Use the PreapprovalDetails API operation to obtain information about
-    an agreement between you and a sender for making payments on the sender\u2019s
-    behalf."
+- name: Paypal Preapproval
+  description: "Use the Preapproval API operation to set up an agreement between yourself
+    and a sender for making payments on the sender\u2019s behalf. You set up a preapprovals
+    for a specific maximum amount over a specific period of time and, optionally,
+    by any of the following constraints: the number of payments, a maximum per-payment
+    amount, a specific day of the week or the month, and whether or not a PIN is required
+    for each payment request."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-preapprovaldetails-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-preapproval-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
