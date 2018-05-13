@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Get Verified Status
+  description: The GetVerifiedStatus API operation lets you check if a PayPal account
+    status is verified. A PayPal account gains verified status under a variety of
+    circumstances, such as when an account is linked to a verified funding source.
+    Verified status serves to indicate a trust relationship. For more information
+    about account verified status, refer to PayPal.com.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
