@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/payments-payment-get.md
-- name: Stripe Add Payments
-  description: Post Payments
+- name: Stripe Get Payments Payment
+  description: Get Payments, Payment
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/stripe-black.png
   humanURL: https://stripe.com/
   baseURL: https://api.stripe.com/v1/
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/payments-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/payments-payment-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/payments-payment-get-postman.md
 x-common:
 - type: x-base
   url: https://api.stripe.com/
