@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Post Payments Templates
-  description: Creates a new PaymentTemplate
+- name: Etsy Get Payments Listing Payment
+  description: Retrieves a ListingPayment by id.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/etsy/payments-templates-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/etsy/payments-listing-payment-id-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
