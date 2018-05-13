@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Preapproval Details
+  description: "Use the PreapprovalDetails API operation to obtain information about
+    an agreement between you and a sender for making payments on the sender\u2019s
+    behalf."
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
