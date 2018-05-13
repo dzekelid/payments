@@ -35,18 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Refund
-  description: Use the Refund API operation to refund all or part of a payment. You
-    can specify the amount of the refund and identify the accounts to receive the
-    refund by the payment key or tracking ID, and optionally, by transaction ID or
-    the receivers of the original payment.
+- name: Paypal Convert Currency
+  description: Use the ConvertCurrency API operation to request the current foreign
+    exchange (FX) rate for a specific amount and currency.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-refund-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-convertcurrency-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
