@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Pay
+  description: "Use the Pay API operation to transfer funds from a sender\u2019s PayPal
+    account to one or more receivers\u2019 PayPal accounts. You can use the Pay API
+    operation to make simple payments, chained payments, or parallel payments; these
+    payments can be explicitly approved, preapproved, or implicitly approved."
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
