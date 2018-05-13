@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Get Permissions
-  description: Use the GetPermissons API operation to obtain the permissions associated
-    with an access token.
+- name: Paypal GetAccess Token
+  description: Use the GetAccessToken API operation to obtain an access token for
+    a set of permissions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/permissions-getpermissions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/permissions-getaccesstoken-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
