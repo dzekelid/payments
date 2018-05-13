@@ -26,17 +26,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/payments-sepa-paymentid-confirm-put.md
-- name: Nordea Get all payments
-  description: Get a list of all payments created for the user
+- name: Nordea Initiate payment
+  description: Post payments
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nordea-bank-logo.png
   humanURL: https://nordeaopenbanking.com
   baseURL: https://api.nordeaopenbanking.com/v2/
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/payments-sepa-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/payments-sepa-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/nordea/payments-sepa-post.md
 x-common:
 - type: x-blog
   url: https://medium.com/@NordeaOpenBanking
