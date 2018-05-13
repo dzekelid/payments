@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Payment Details
+  description: Use the PaymentDetails API operation to obtain information about a
+    payment. You can identify the payment by your tracking ID, the PayPal transaction
+    ID in an IPN message, or the pay key associated with the payment.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
