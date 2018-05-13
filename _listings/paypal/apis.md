@@ -35,19 +35,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Get Shipping Addresses
-  description: Use the GetShippingAddresses API operation to obtain the selected shipping
-    address. You must have created the payment or preapproval key that identifies
-    the account holder whose shipping address you want to obtain, or be the primary
-    receiver of the payment or one of the parallel receivers of the payment. The shipping
-    address is available only if it was provided during the embedded payment flow.
+- name: Paypal Execute Payment
+  description: The ExecutePayment API operation lets you execute a payment set up
+    with the Pay API operation with the actionType CREATE. To pay receivers identified
+    in the Pay call, set the pay key from the PayResponse message in the ExecutePaymentRequest
+    message.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getshippingaddresses-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-executepayment-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
