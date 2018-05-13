@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Get User Agreement
+  description: The GetUserAgreement API operation lets you retrieve the user agreement
+    for the customer to approve the new PayPal account.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
