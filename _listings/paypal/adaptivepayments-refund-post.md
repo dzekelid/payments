@@ -1,9 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Refund
+  description: Use the Refund API operation to refund all or part of a payment. You
+    can specify the amount of the refund and identify the accounts to receive the
+    refund by the payment key or tracking ID, and optionally, by transaction ID or
+    the receivers of the original payment.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
