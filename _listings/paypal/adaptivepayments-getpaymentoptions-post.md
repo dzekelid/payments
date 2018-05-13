@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Get Payment Options
+  description: You use the GetPaymentOptions API operation to retrieve the payment
+    options passed with the SetPaymentOptionsRequest.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
