@@ -35,16 +35,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Create Account
-  description: The CreateAccount API operation enables you to create a PayPal account
-    on behalf of a third party.
+- name: Paypal Get Funding Plans
+  description: Use the GetFundingPlans API operation to determine the funding sources
+    that are available for a specified payment, identified by its key, which takes
+    into account the preferences and country of the receiver as well as the payment
+    amount. You must be both the sender of the payment and the caller of this API
+    operation
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptiveaccounts-createaccount-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getfundingplans-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
