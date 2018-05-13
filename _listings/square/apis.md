@@ -20,8 +20,33 @@ created: "2018-02-25"
 modified: "2018-02-25"
 url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/square/apis.yaml
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Square Connect API Get Location Payments
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
+  humanURL: https://squareup.com
+  baseURL: https://connect.squareup.com/v1/
+  tags: Payments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/location-id-payments-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/location-id-payments-get-postman.md
 x-common:
+- type: x-base
+  url: https://connect.squareup.com
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/square
+- type: x-developer
+  url: https://connect.squareup.com/
+- type: x-github
+  url: https://github.com/square
+- type: x-twitter
+  url: https://twitter.com/Square
+- type: x-website
+  url: https://squareup.com
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
