@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Get Basic Personal Data
-  description: Use the GetBasicPersonalData API operation to obtain basic personal
-    data for an account holder.
+- name: Paypal Cancel Permissions
+  description: Use the CancelPermissions API operation to cancel access to a set of
+    permissions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/permissions-getbasicpersonaldata-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/permissions-cancelpermissions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
