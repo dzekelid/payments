@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Cancel Preapproval
+  description: Use the CancelPreapproval API operation to handle the canceling of
+    preapprovals. Preapprovals can be canceled regardless of the state they are in,
+    such as active, expired, deactivated, and previously canceled.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
