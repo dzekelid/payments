@@ -35,16 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Set Funding Source Confirmed
-  description: The SetFundingSourceConfirmed API operation lets your application set
-    up bank accounts as funding sources for PayPal accounts.
+- name: Paypal Add Payment Card
+  description: The AddPaymentCard API operation lets your application set up credit
+    cards as funding sources for PayPal accounts.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptiveaccounts-setfundingsourceconfirmed-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptiveaccounts-addpaymentcard-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
