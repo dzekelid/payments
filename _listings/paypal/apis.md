@@ -35,19 +35,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Get Funding Plans
-  description: Use the GetFundingPlans API operation to determine the funding sources
-    that are available for a specified payment, identified by its key, which takes
-    into account the preferences and country of the receiver as well as the payment
-    amount. You must be both the sender of the payment and the caller of this API
-    operation
+- name: Paypal Get Shipping Addresses
+  description: Use the GetShippingAddresses API operation to obtain the selected shipping
+    address. You must have created the payment or preapproval key that identifies
+    the account holder whose shipping address you want to obtain, or be the primary
+    receiver of the payment or one of the parallel receivers of the payment. The shipping
+    address is available only if it was provided during the embedded payment flow.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getfundingplans-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getshippingaddresses-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
