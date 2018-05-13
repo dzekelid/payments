@@ -35,17 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Cancel Preapproval
-  description: Use the CancelPreapproval API operation to handle the canceling of
-    preapprovals. Preapprovals can be canceled regardless of the state they are in,
-    such as active, expired, deactivated, and previously canceled.
+- name: Paypal Preapproval Details
+  description: "Use the PreapprovalDetails API operation to obtain information about
+    an agreement between you and a sender for making payments on the sender\u2019s
+    behalf."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-cancelpreapproval-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-preapprovaldetails-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
