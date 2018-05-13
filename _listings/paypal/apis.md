@@ -35,18 +35,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Execute Payment
-  description: The ExecutePayment API operation lets you execute a payment set up
-    with the Pay API operation with the actionType CREATE. To pay receivers identified
-    in the Pay call, set the pay key from the PayResponse message in the ExecutePaymentRequest
-    message.
+- name: Paypal Set Payment Options
+  description: "You use the SetPaymentOptions API operation to specify settings for
+    a payment of the actionType CREATE. \n\t\t\t\t\tThis actionType is specified in
+    the PayRequest message."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-executepayment-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-setpaymentoptions-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
