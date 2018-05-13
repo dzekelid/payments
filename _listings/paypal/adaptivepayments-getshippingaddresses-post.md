@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Get Shipping Addresses
+  description: Use the GetShippingAddresses API operation to obtain the selected shipping
+    address. You must have created the payment or preapproval key that identifies
+    the account holder whose shipping address you want to obtain, or be the primary
+    receiver of the payment or one of the parallel receivers of the payment. The shipping
+    address is available only if it was provided during the embedded payment flow.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
