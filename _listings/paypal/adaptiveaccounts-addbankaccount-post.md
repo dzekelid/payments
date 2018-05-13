@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Add Bank Account
+  description: The AddBankAccount API operation lets your application set up bank
+    accounts as funding sources for PayPal accounts.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
