@@ -1,9 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: PayPal (Sandbox)
-  description: Bring payments to apps, mobile and social with Adaptive Payments &lt;b&gt;(Sandbox
-    API).&lt;/b&gt;
+  title: Paypal Set Payment Options
+  description: "You use the SetPaymentOptions API operation to specify settings for
+    a payment of the actionType CREATE. \n\t\t\t\t\tThis actionType is specified in
+    the PayRequest message."
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
