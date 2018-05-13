@@ -35,17 +35,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Payment Details
-  description: Use the PaymentDetails API operation to obtain information about a
-    payment. You can identify the payment by your tracking ID, the PayPal transaction
-    ID in an IPN message, or the pay key associated with the payment.
+- name: Paypal Pay
+  description: "Use the Pay API operation to transfer funds from a sender\u2019s PayPal
+    account to one or more receivers\u2019 PayPal accounts. You can use the Pay API
+    operation to make simple payments, chained payments, or parallel payments; these
+    payments can be explicitly approved, preapproved, or implicitly approved."
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-paymentdetails-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
