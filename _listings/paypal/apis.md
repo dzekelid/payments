@@ -35,16 +35,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-pay-post.md
-- name: Paypal Get Payment Options
-  description: You use the GetPaymentOptions API operation to retrieve the payment
-    options passed with the SetPaymentOptionsRequest.
+- name: Paypal Refund
+  description: Use the Refund API operation to refund all or part of a payment. You
+    can specify the amount of the refund and identify the accounts to receive the
+    refund by the payment key or tracking ID, and optionally, by transaction ID or
+    the receivers of the original payment.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paypal-logo.png
   humanURL: https://paypal.com
   baseURL: https://svcs.sandbox.paypal.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-getpaymentoptions-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/adaptivepayments-refund-post.md
 x-common:
 - type: x-base-url
   url: https://api.paypal.com
