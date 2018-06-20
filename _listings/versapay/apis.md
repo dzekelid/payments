@@ -1,5 +1,6 @@
 ---
 name: VersaPay
+x-slug: versapay
 description: VersaPay handles elements of both credit and debit card merchant payment
   processing in Canada. In offering a host of merchant account services and credit
   card POS terminals it allows for an efficient merchant payment service in all aspects-
@@ -10,33 +11,43 @@ description: VersaPay handles elements of both credit and debit card merchant pa
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
 x-kinRank: "9"
 x-alexaRank: "410909"
-tags:
-- Technology
-- Stack Network
-- Payments
-- Payments
-- Financial Services
-- Checking
-- Billing
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Payments
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/apis.md
 specificationVersion: "0.14"
 apis:
 - name: VersaPay Payments made in ARC
+  x-api-slug: versapay
   description: Payments made to your supplier account from your customers since watermark,
     limited to 100 payment amounts at a time.<br><br>A consumer should store the last
     `id` value of each response and include it as the watermark parameter for a subsequent
     calls.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
   humanURL: http://developers.versapay.com/index.html
+  baseURL: https://secure.versapay.com////api/exports/payment_amounts
+  tags: Payments, made, in, ARC
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/apiexportspayment-amounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/apiexportspayment-amounts-get-openapi.md
+- name: VersaPay
+  x-api-slug: versapay
+  description: VersaPay handles elements of both credit and debit card merchant payment
+    processing in Canada. In offering a host of merchant account services and credit
+    card POS terminals it allows for an efficient merchant payment service in all
+    aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael
+    Gokturk, VersaPay is a Canadian owned and operated national financial transaction
+    services provider partnered with Chase Paymentech. Versapay also offers electronic
+    funds transfer through a system called Versapay EMT.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg
+  humanURL: http://developers.versapay.com/index.html
   baseURL: https://secure.versapay.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/api-exports-payment-amounts-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/api-exports-payment-amounts-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/openapi.md
 x-common:
 - type: x-base
   url: https://secure.versapay.com/api/

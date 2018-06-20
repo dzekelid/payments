@@ -1,25 +1,65 @@
 ---
 name: Venmo
-description: Venmo is a service that makes it easy, safe, and fun to pay your friends.
-  Venmos iPhone and Android apps allow you to make and share payments with friends
-  for rent, utilities, dinner, drinks, movies, concert tickets, birthdays, laughs,
-  and anything else. Paying with your debit card or bank account is free, and you
-  can transfer money from your Venmo account balance to your bank account overnigh
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2177_logo.png
+x-slug: venmo
+description: Venmo is a free digital wallet that lets you make and share payments
+  with friends. You can easily split the bill, cab fare, or much more. Download the
+  iOS or Android app or sign up on Venmo.com today.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Social
-- Payments
-- Payment
-- Getting Started
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/venmo/apis.yaml
+x-alexaRank: "3421"
+tags: Payments
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Venmo API Get Payments
+  x-api-slug: venmo-api
+  description: Get payments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
+  humanURL: https://venmo.com/
+  baseURL: https://api.venmo.com//v1//payments
+  tags: Payments
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-get-openapi.md
+- name: Venmo API Post Payments
+  x-api-slug: venmo-api
+  description: Post payments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
+  humanURL: https://venmo.com/
+  baseURL: https://api.venmo.com//v1//payments
+  tags: Payments
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-post-openapi.md
+- name: Venmo API Get Payments
+  x-api-slug: venmo-api
+  description: Get payments.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
+  humanURL: https://venmo.com/
+  baseURL: https://api.venmo.com//v1//payments/{id}
+  tags: Payments,Id
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/paymentsid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/paymentsid-get-openapi.md
+- name: Venmo API
+  x-api-slug: venmo-api
+  description: The Venmo API provides developers a straightforward way to integrate
+    Venmo into their applications.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
+  humanURL: https://venmo.com/
+  baseURL: https://api.venmo.com//v1
+  tags: Payments
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://github.com/venmo/app-switch-android
@@ -37,8 +77,22 @@ x-common:
   url: https://developer.venmo.com/docs/api-console
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/venmo
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/venmo
 - type: x-developer
   url: https://developer.venmo.com/
+- type: x-email
+  url: press@venmo.com
+- type: x-email
+  url: cardsupport@venmo.com
+- type: x-email
+  url: venmo@venmo.com
+- type: x-email
+  url: Support@venmo.com
+- type: x-email
+  url: privacy@venmo.com
+- type: x-email
+  url: legal+useragreement@venmo.com
 - type: x-error-codes
   url: https://developer.venmo.com/docs/errors
 - type: x-faq
@@ -57,6 +111,8 @@ x-common:
   url: https://developer.venmo.com/docs/webhooks
 - type: x-website
   url: https://venmo.com/
+- type: x-website
+  url: http://venmo.com
 - type: x-widgets
   url: https://developer.venmo.com/docs/widgets/
 include: []

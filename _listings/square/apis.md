@@ -1,60 +1,78 @@
 ---
 name: Square
-description: Starting with a free credit card reader for the iPhone, iPad, and Android
-  devices, Square Reader allows anyone to accept credit cards anywhere, anytime, for
-  a low transaction rate of 2.75 percent per swipe, with no hidden fees. Square Register
-  serves as a full point-of-sale system for businesses to accept payments, manage
-  items, and share menu and location information. Square Wallet, available in the
-  US, is the most seamless way to pay, enabling individuals to pay at their favorite
-  local businesses, discover new ones nearby, explore menu listings, and store receipts.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
+x-slug: square
+description: Square helps millions of sellers run their business- from secure credit
+  card processing to point of sale solutions. Get paid faster with Square and sign
+  up today!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payment API
-- Credit Cards
-- Commerce
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/square/apis.yaml
+x-alexaRank: "2436"
+tags: Payments
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Square Connect API Get Location Payments Payment
-  description: Provides comprehensive information for a single payment.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/square-logo.png
-  humanURL: https://squareup.com
-  baseURL: https://connect.squareup.com/v1/
+- name: Square Connect API Provides summary information for all payments taken by
+    a merchant or any of the merchant's mobile staff during a date range. Date ranges
+    cannot exceed one year in length. See Date ranges for details of inclusive and
+    exclusive dates.
+  x-api-slug: square-connect-api
+  description: Provides summary information for all payments taken by a merchant or
+    any of the merchant's mobile staff during a date range. Date ranges cannot exceed
+    one year in length. See Date ranges for details of inclusive and exclusive dates.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://squareup.com
+  baseURL: https://connect.squareup.com////v1/{location_id}/payments
+  tags: Provides,Summary,Information,Payments,Taken,By,Merchant,Any,Of,Merchants,Mobile,Staff,During,Date,Range,,Date,Ranges,Cannot,Exceed,Year,In,Length,,See,Date,Rangesdetails,Of,Inclusive,Exclusive,Dates
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/v1location-idpayments-get-openapi.md
+- name: Square Connect API
+  x-api-slug: square-connect-api
+  description: Square helps millions of sellers run their business- from secure credit
+    card processing to point of sale solutions. Get paid faster with Square and sign
+    up today!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://squareup.com
+  baseURL: https://connect.squareup.com//
   tags: Payments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/location-id-payments-payment-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/location-id-payments-payment-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/openapi.md
 x-common:
 - type: x-base
   url: https://connect.squareup.com
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/square
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/square
 - type: x-developer
   url: https://connect.squareup.com/
+- type: x-email
+  url: press@squareup.com
+- type: x-email
+  url: security@squareup.com
+- type: x-email
+  url: lawenforcement@squareup.com
+- type: x-email
+  url: redemption@squareup.com
+- type: x-email
+  url: privacy@squareup.com
+- type: x-email
+  url: community@squareup.com
+- type: x-email
+  url: noreply@messaging.squareup.com
+- type: x-email
+  url: ir@squareup.com
+- type: x-email
+  url: takedowns@squareup.com
 - type: x-github
   url: https://github.com/square
 - type: x-twitter
   url: https://twitter.com/Square
 - type: x-website
-  url: https://squareup.com
-- type: x-base
-  url: https://connect.squareup.com
-- type: x-crunchbase
-  url: http://www.crunchbase.com/company/square
-- type: x-developer
-  url: https://connect.squareup.com/
-- type: x-github
-  url: https://github.com/square
-- type: x-twitter
-  url: https://twitter.com/Square
+  url: http://squareup.com
 - type: x-website
   url: https://squareup.com
 include: []
