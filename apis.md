@@ -4,7 +4,7 @@ description: This is a repository of payments APIs, self-contained as a Github r
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/payments.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://payments.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -30,7 +30,7 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/apis.yaml
 - name: Reverb
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/taxamo/apis.yaml
 - name: Xero
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/apis.yaml
