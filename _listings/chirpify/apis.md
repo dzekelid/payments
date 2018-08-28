@@ -1,30 +1,24 @@
 ---
 name: Chirpify
-description: 'We work with brands and agencies who want to leverage social as the
-  point of conversion for their multi-channel marketing campaigns. Clients like adidas,
-  Mastercard amp; RCA Records use our Social Conversion Platform to activate their
-  advertising - enabling consumers to #vote, #donate and #buy directly through social
-  channels. Since launching in February of 2012, wersquo;ve had hundreds of brands
-  and merchants launch more than 10,000 campaigns on our platform. And wersquo;ve
-  attracted a great group of investors that includes Voyager Capital, the former CEO
-  of McCann Worldgroup, and the CEO of Hootsuite.nbsp;'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/chirpifiy-logo.jpeg
+x-slug: chirpify
+description: We enable brands to connect social and chat to loyalty and CRM, to engage
+  and reward consumers for engagement and surprise and delight.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1037-chirpify.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Utility
-- Twitter
-- Stack Network
-- Payments
-- Payment API
-- Mcommerce
-- Commerce
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/chirpify/apis.yaml
+x-alexaRank: "800193"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chirpify/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/sell-simply
+- type: x-email
+  url: support@chirpify.com
+- type: x-email
+  url: hello@chirpify.com
 - type: x-github
   url: https://github.com/Chirpify
 - type: x-twitter

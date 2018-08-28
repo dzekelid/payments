@@ -37,6 +37,42 @@ paths:
       tags:
       - List
       - Payments
+    post:
+      summary: Register A Payment
+      description: Register a payment.
+      operationId: createPayment
+      x-api-path-slug: apiv1transactionskeypayments-post
+      parameters:
+      - in: body
+        name: input
+        description: Input
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: key
+        description: Transaction key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Register
+      - Payment
+  /api/v1/transactions/{key}/payments/capture:
+    post:
+      summary: Capture Payment
+      description: Capture payment.
+      operationId: capturePayment
+      x-api-path-slug: apiv1transactionskeypaymentscapture-post
+      parameters:
+      - in: path
+        name: key
+        description: Transaction key
+      responses:
+        200:
+          description: OK
+      tags:
+      - Capture
+      - Payment
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

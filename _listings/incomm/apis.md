@@ -1,25 +1,15 @@
 ---
 name: InComm
-description: InCommrsquo;s Cashtie API connects your App to top retailers POS (Point
-  of Sale) systems. You can build new or enhance existing Apps that improve the retail
-  experience, including new in lane bill payments, cash payments for online transactions
-  in retail stores, or to initiate the sale of digital products right from the consumers
-  phone. All of these options are unlocked by simply providing a barcode displayed
-  within your App that can be scanned and read by the retailers cash register and
-  validated via the InComm/Cashtie real time POS integration.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cashtie-logo.png
+x-slug: incomm
+description: Provide new payment solutions to your client base and integrate cash
+  payments into your existing applications with just a few lines of code.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1993-incomm.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payment API
-- Commerce
-- Cash
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/incomm/apis.yaml
+x-alexaRank: "6958414"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/incomm/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -33,6 +23,8 @@ x-common:
   url: https://www.cashtie.com/developers
 - type: x-twitter
   url: https://twitter.com/inComm
+- type: x-twitter
+  url: https://twitter.com/Cashtieapi
 - type: x-website
   url: https://www.cashtie.com/
 include: []

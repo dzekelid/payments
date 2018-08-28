@@ -1,0 +1,1781 @@
+{
+	"name": "Streadata.io API Gallery - Payments",
+	"description": "This is a repository of payments APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/payments.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://payments.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AT&T Dev Program",
+			"x-api-slug": "att-dev-program",
+			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg",
+			"humanURL": "http://att.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Braintree",
+			"x-api-slug": "braintree",
+			"description": "An all-in-one solution to accept, process, and split payments in your mobile app or online -- from small business to large enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/163-braintree.jpg",
+			"humanURL": "https://www.braintreepayments.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/braintree/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Constant Contact",
+			"x-api-slug": "constant-contact",
+			"description": "With Constant Contact, you can create effective email marketing and other online marketing campaigns to meet your business goals. Start your FREE trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg",
+			"humanURL": "http://blogs.constantcontact.com",
+			"baseURL": "https://api.constantcontact.com//v2",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/constant-contact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dwolla",
+			"x-api-slug": "dwolla",
+			"description": "Dwolla???s ACH APIs make it easy to integrate bank transfers. Facilitate ACH payments, or verify customer and bank account information within your platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/185-dwolla.jpg",
+			"humanURL": "https://www.dwolla.com/developers/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dwolla/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPal",
+			"x-api-slug": "paypal",
+			"description": "PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/237-paypal.jpg",
+			"humanURL": "https://paypal.com",
+			"baseURL": "https://svcs.sandbox.paypal.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Stripe",
+			"x-api-slug": "stripe",
+			"description": "Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for online businesses of all sizes, including fraud prevention, and subscription management. Use Stripes payment platform to accept and process p...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/254-stripe.jpg",
+			"humanURL": "https://stripe.com/",
+			"baseURL": "https://api.stripe.com/v1/",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xero",
+			"x-api-slug": "xero",
+			"description": "Xero is the QuickBooks alternative. Use Xero accounting software to manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg",
+			"humanURL": "http://www.xero.com/",
+			"baseURL": "https://api.xero.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MasterCard",
+			"x-api-slug": "mastercard",
+			"description": "Mastercard is a leading global payments & technology company that connects consumers, businesses, merchants, issuers & governments around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/366-mastercard.jpg",
+			"humanURL": "https://developer.mastercard.com/",
+			"baseURL": "https://eas5stl0.mastercard.int:13046//z0/core/v1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/mastercard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Authorize.Net",
+			"x-api-slug": "authorize-net",
+			"description": "Authorize.Nets payment gateway provides services to help merchants accept online and mobile credit card processing, payments via echecks, and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/376-authorize-net.jpg",
+			"humanURL": "http://developer.authorize.net/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/authorize-net/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PowerInbox",
+			"x-api-slug": "powerinbox",
+			"description": "Chargify is the best online billing software for all of your Recurring Billing needs. Learn more about simplifying your Subscription Billing today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/385-powerinbox.jpg",
+			"humanURL": "http://docs.chargify.com/api-introduction",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/powerinbox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Payvment",
+			"x-api-slug": "payvment",
+			"description": "Ecwid E-commerce Shopping Cart is Fast and Easy to Use! Set up an Online Store for WordPress, Drupal, Facebook and Much More! Start Selling Now with Ecwid.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/452-payvment.jpg",
+			"humanURL": "http://open.payvment.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payvment/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreedly",
+			"x-api-slug": "spreedly",
+			"description": "For online merchants and marketplaces, our API provides simple and secure PCI compliance, credit card vault and forwarding of online payments. Try for free.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/486-spreedly.jpg",
+			"humanURL": "https://spreedly.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/spreedly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Conferma",
+			"x-api-slug": "conferma",
+			"description": "Redefining corporate payment technology with Virtual Card Numbers. Experts in corporate travel and expense, extending VCNs into B2B payments",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/561-conferma.jpg",
+			"humanURL": "http://www.conferma.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/conferma/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Fortumo",
+			"x-api-slug": "fortumo",
+			"description": "Fortumo is a digital enablement platform for app stores and digital service providers for user acquisition, monetization and retention. The company connects service providers with more than 350 mobile operators across Asia, Europe, Latin America, the M...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/595-fortumo.jpg",
+			"humanURL": "http://fortumo.com/api",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/fortumo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "WePay",
+			"x-api-slug": "wepay",
+			"description": "WePay is an integrated payments provider for SaaS and crowdfunding platforms. Grow your revenue without friction or fraud.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/675-wepay.jpg",
+			"humanURL": "https://www.wepay.com/developer",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/wepay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Invoicera",
+			"x-api-slug": "invoicera",
+			"description": "Online invoicing & billing software - online invoices, subscription billing &  online payments. Best online invoicing software for SaaS companies, businesses & enterprises.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/822-invoicera.jpg",
+			"humanURL": "http://www.invoicera.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/invoicera/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Payments Gateway",
+			"x-api-slug": "payments-gateway",
+			"description": "At Payments Gateway we understand how c",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://www.paymentsgateway.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payments-gateway/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spree Commerce",
+			"x-api-slug": "spree-commerce",
+			"description": "First Data makes payment transactions secure, fast and easy for merchants, financial institutions and their customers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/940-spree-commerce.jpg",
+			"humanURL": "http://spreecommerce.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/spree-commerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chirpify",
+			"x-api-slug": "chirpify",
+			"description": "We enable brands to connect social and chat to loyalty and CRM, to engage and reward consumers for engagement and surprise and delight.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1037-chirpify.jpg",
+			"humanURL": "http://chirpify.com/developers",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chirpify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HostBill",
+			"x-api-slug": "hostbill",
+			"description": "Hosting, Cloud/IaaS/VPS Solutions Providers, Domain name and SSL Resellers around the globe use HostBill to automate & manage their online businesses",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1070-hostbill.jpg",
+			"humanURL": "http://hostbillapp.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/hostbill/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Invoicefu",
+			"x-api-slug": "invoicefu",
+			"description": "No more hassling with invoice numbers, copying invoices manually, or losing any data. Youll be able to access your invoices from anywhere, at anytime, with all the guarantees of our industry strength secure servers. if you are a web or mobile apps dev...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1079-invoicefu.jpg",
+			"humanURL": "https://invoicefu.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/invoicefu/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Payfirma",
+			"x-api-slug": "payfirma",
+			"description": "Payfirma is your one-stop merchant services partner for secure credit card processing. We offer one solution that lets you take payments any way your customers want to pay.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1111-payfirma.jpg",
+			"humanURL": "http://www.payfirma.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payfirma/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SecureNet",
+			"x-api-slug": "securenet",
+			"description": "Worldpay provides secure payment services for small and large businesses, including payments online, card machines and telephone payments. Find out more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1145-securenet.jpg",
+			"humanURL": "http://www.securenet.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/securenet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VersaPay",
+			"x-api-slug": "versapay",
+			"description": "VersaPay handles elements of both credit and debit card merchant payment processing in Canada. In offering a host of merchant account services and credit card POS terminals it allows for an efficient merchant payment service in all aspects- in person, on the go, online, and at the office. Founded in 2005 by Michael Gokturk, VersaPay is a Canadian owned and operated national financial transaction services provider partnered with Chase Paymentech. Versapay also offers electronic funds transfer through a system called Versapay EMT.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1208-versapay-corporation.jpg",
+			"humanURL": "http://developers.versapay.com/index.html",
+			"baseURL": "https://secure.versapay.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayAnywhere",
+			"x-api-slug": "payanywhere",
+			"description": "Transform your transactions with PayAnywhere. A simple and secure way to accept credit cards and manage your business. Accept mobile payments from our robust payment processing app and handheld 3-in-1 credit card reader. Use the Storefront point of sal...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1232-payanywhere.jpg",
+			"humanURL": "http://payanywhere.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payanywhere/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Finxera",
+			"x-api-slug": "finxera",
+			"description": "Our mission is to allow Non-Financial Institutions to Collect, Store and Send Money, in a simple, secure, and compliant manner.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1243-finxera.jpg",
+			"humanURL": "http://www.bancbox.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/finxera/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Merriam-Webster Dictionary",
+			"x-api-slug": "merriamwebster-dictionary",
+			"description": "The Merriam-Webster Dictionary API gives developers access to a comprehensive resource of dictionary and thesaurus content as well as specialized medical, Spanish, ESL, and student-friendly vocabulary. Make your applications better by integrating our authoritative definitions, etymologies, audio pronunciations, synonyms and antonyms, and more. Our robust API empowers developers to enhance word games and create educational, language learning, and other word-related applications for the digital environment. We look forward to seeing all of the new, innovative products powered by Merriam-Websters trusted references.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dev-center-logo-500x100.png",
+			"humanURL": "http://dictionaryapi.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/merriamwebster-dictionary/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PaybyMe",
+			"x-api-slug": "paybyme",
+			"description": "Payment Services in METNA (Turkey, Middle East, North Affrica) and CIS (Commonwealth of Independent States) regions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1353-paybyme.jpg",
+			"humanURL": "http://www.payby.me",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paybyme/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chase Paymentech",
+			"x-api-slug": "chase-paymentech",
+			"description": "Chase online; credit cards, mortgages, commercial banking, auto loans, investing & retirement planning, checking and business banking.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1392-chase-paymentech.jpg",
+			"humanURL": "http://www.chasepaymentech.com/payment_gateway.html",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chase-paymentech/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PassKit",
+			"x-api-slug": "passkit",
+			"description": "Effortlessly create and manage engaging, contextual, connected online to offline experiences with the latest technologies.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1461-passkit.jpg",
+			"humanURL": "http://passkit.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/passkit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayJunction",
+			"x-api-slug": "payjunction",
+			"description": "PayJunction is a Level 1 PCI Compliant Service Provider that services thousands of businesses in every state in the United States. Since 2000, PayJunction has rapidly become a leading developer and provider of cutting edge merchant technology. PayJunction has also formed strategic alliances with leading financial institutions and technology partners to deliver the most comprehensive services in the industry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payjunction-logo.png",
+			"humanURL": "http://payjunction.com/",
+			"baseURL": "https://example.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payjunction/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChargeBee",
+			"x-api-slug": "chargebee",
+			"description": "Chargebee lets you automate your recurring billing, manage subscriptions at scale and access metrics that matter.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1513-chargebee.jpg",
+			"humanURL": "https://chargebee.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chargebee/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Viafoura",
+			"x-api-slug": "viafoura",
+			"description": "Experience the market-leading Viafoura audience engagement and development platform. Offering media, broadcast and entertainment brands user registration, comment moderation, analytics, push notifications and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1530-viafoura.jpg",
+			"humanURL": "http://viafoura.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/viafoura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayLane",
+			"x-api-slug": "paylane",
+			"description": "PayLane provides the best online payments solutions for SaaS & Ecommerce businesses. Apply and get more customers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1549-paylane.jpg",
+			"humanURL": "http://devzone.paylane.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paylane/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Tinypass",
+			"x-api-slug": "tinypass",
+			"description": "Piano is a simple yet powerful service that allows any web publisher to easily accept quick and secure payments for access to any type of content.    The Piano platform can process payments as small as two-cents, and doesnt require changing your site...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1589-tinypass.jpg",
+			"humanURL": "http://developer.tinypass.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/tinypass/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ribbon",
+			"x-api-slug": "ribbon",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1734-ribbon.jpg",
+			"humanURL": "https://www.ribbon.co/api",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/ribbon/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Celery",
+			"x-api-slug": "celery",
+			"description": "Celery is a pre-order platform that brings your products to life. Use Celery for your pre-order, custom crowdfunding, and e-commerce needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1758-celery.jpg",
+			"humanURL": "https://www.trycelery.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/celery/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "InComm",
+			"x-api-slug": "incomm",
+			"description": "Provide new payment solutions to your client base and integrate cash payments into your existing applications with just a few lines of code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1993-incomm.jpg",
+			"humanURL": "https://www.cashtie.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/incomm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "2Checkout",
+			"x-api-slug": "2checkout",
+			"description": "Accept payments online. 2Checkout.com is an online payment processing service that helps you accept credit cards, PayPal and debit cards.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2169-2checkout.jpg",
+			"humanURL": "https://www.2checkout.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/2checkout/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Adyen",
+			"x-api-slug": "adyen",
+			"description": "We provide a single payments platform globally to accept payments and grow revenue online, on mobile, and at the point of sale.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2170-adyen.jpg",
+			"humanURL": "http://www.adyen.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/adyen/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CardFlight",
+			"x-api-slug": "cardflight",
+			"description": "CardFlight empowers app developers to easily take in-person (card present) payments within their own iOS and Android apps. CardFlight&rsquo;s open platform connects mobile app developers with payment processors, focusing on the 90+% of credit card payments that happen in real life. Developers use CardFlight&rsquo;s encrypted mag stripe reader and SDK/API so that they can easily and securely accept card present payments in their apps, with support for virtually any payment processor or merchant account. Our clients retain full control of their integrated app experience without dealing with the typical complexity of payments integrations.",
+			"image": "",
+			"humanURL": "https://getcardflight.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/cardflight/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Evo Snap",
+			"x-api-slug": "evo-snap",
+			"description": "Snap helps developers simplify payment acceptance &amp; business operations for merchants and their customers. EVO Snap* empowers developers to create customized, multi-channel commerce applications &amp; services to support their customers across traditional POS, mobile and eCommerce touch points. Snap* streamlines the inclusion of multiple payment and value-added services via one integration, and delivers bundles of services to developers through one family of APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2172-evo-snap*.jpg",
+			"humanURL": "http://www.evosnap.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/evo-snap/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Judo Payments",
+			"x-api-slug": "judo-payments",
+			"description": "Judopay  Next generation mobile payments for an app experience your customers will love",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2173-judo-payments.jpg",
+			"humanURL": "https://www.judopay.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/judo-payments/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Payscape",
+			"x-api-slug": "payscape",
+			"description": "Financial technology for businesses of all sizes. Our dedication to payment technology is consistent, and our mission clear; to make it simple for business owners to collect payments. Whether you accept credit cards at a storefront, processes payments ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2174-payscape.jpg",
+			"humanURL": "https://payscape.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payscape/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SlidePay",
+			"x-api-slug": "slidepay",
+			"description": "Payment platform APIs. Developers can easily integrate card-not-present and card-present payments into their mobile and web applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2175-slidepay.jpg",
+			"humanURL": "https://www.slidepay.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/slidepay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Venmo",
+			"x-api-slug": "venmo",
+			"description": "Venmo is a free digital wallet that lets you make and share payments with friends. You can easily split the bill, cab fare, or much more. Download the iOS or Android app or sign up on Venmo.com today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg",
+			"humanURL": "https://venmo.com/",
+			"baseURL": "https://api.venmo.com//v1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Recurly",
+			"x-api-slug": "recurly",
+			"description": "Recurly provides enterprise-class subscription billing management for thousands of businesses worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2178-recurly.jpg",
+			"humanURL": "https://recurly.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/recurly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pin Payments",
+			"x-api-slug": "pin-payments",
+			"description": "An all-in-one developer API for accepting credit card payments online in multiple currencies. Through integrations with key e-commerce &amp; business platforms (https://pin.net.au/partners) Pin Payments also enables small businesses to start accepting payments online quickly &amp; easily.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2179_logo.png",
+			"humanURL": "https://pin.net.au/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/pin-payments/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MoneyBird",
+			"x-api-slug": "moneybird",
+			"description": "Plezier in je financile zaken met het boekhoudprogramma van Moneybird. Al meer dan 150.000 ZZPers en MKBers gingen je voor!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2201-moneybird.jpg",
+			"humanURL": "https://www.moneybird.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/moneybird/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CyberSource",
+			"x-api-slug": "cybersource",
+			"description": "CyberSource is a leading global provider of credit card processing, fraud and security risk management solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2647-cybersource.jpg",
+			"humanURL": "http://www.cybersource.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/cybersource/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PAYMILL",
+			"x-api-slug": "paymill",
+			"description": "PAYMILL offers you an online payment service, which makes the transactions in your online shop easy. Discover the innovative payment system from PAYMILL. | PAYMILL GmbH",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2714-paymill.jpg",
+			"humanURL": "https://www.paymill.com/en-gb/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paymill/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Intuit",
+			"x-api-slug": "intuit",
+			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
+			"humanURL": "https://intuit.com",
+			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/intuit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BillingOrchard",
+			"x-api-slug": "billingorchard",
+			"description": "BillingOrchard by Payscape is an online billing and invoicing software designed to simplify the billing process and get you paid faster. BillingOrchard is a perfect solution for businesses of all sizes - especially individual contractors and freelancer...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10317-billingorchard.jpg",
+			"humanURL": "http://www.billingorchard.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/billingorchard/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayStand.com",
+			"x-api-slug": "paystand-com",
+			"description": "PayStand is a next generation payment &amp; eCommerce checkout system that enables any organization to receive money in their Website, Social Network, or Web Application without transaction costs. We are the first multi-payment gateway that accepts credit cards (Visa/MasterCard/Amex/Discover), eCheck (ACH/Dwolla), and eCash (Bitcoins) with 0% transaction fees.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/pay-stand.jpg",
+			"humanURL": "http://www.paystand.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paystand-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Marqeta",
+			"x-api-slug": "marqeta",
+			"description": "",
+			"image": "http://pbs.twimg.com/profile_images/657601385467215872/di_r86gn_normal.png",
+			"humanURL": "https://www.marqeta.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/marqeta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Digital River",
+			"x-api-slug": "digital-river",
+			"description": "Digital Riveris a public company that provides global ecommerce, payments and marketing services. In 2013, Digital River processed more than $30 billion in online transactions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png",
+			"humanURL": "https://digitalriver.com",
+			"baseURL": "https://store.digitalriver.com//store/{mysite}",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/digital-river/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Taxamo",
+			"x-api-slug": "taxamo",
+			"description": "We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax #TaxTrends",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg",
+			"humanURL": "https://www.taxamo.com/",
+			"baseURL": "https://api.taxamo.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/taxamo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Privacy Rights Clearinghouse",
+			"x-api-slug": "privacy-rights-clearinghouse",
+			"description": "Privacy Rights Clearinghouse is a California nonprofit corporation with 501(c)(3) tax exempt status. Our mission is to engage, educate and empower individuals to protect their privacy. We identify trends and communicate our findings to advocates, policymakers, industry, media and consumers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/privacy-rights-clearinghouse-logo.jpg",
+			"humanURL": "https://www.privacyrights.org/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/privacy-rights-clearinghouse/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Alarm.com",
+			"x-api-slug": "alarm-com",
+			"description": "We are passionate about creating innovative technology that deepens the connection between people and the things they care about most &ndash; their homes, families and businesses. Millions of people trust Alarm.com every day for better security, advanced automation and dependable service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/alarm-com-logo.jpg",
+			"humanURL": "https://www.alarm.com/",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/alarm-com/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Giphy",
+			"x-api-slug": "giphy",
+			"description": "Giphy is a search engine for GIFs. Animated GIFs have existed for decades, but there was still no good way to browse and discover the best the web had to offer. And the vision for Giphy isn&rsquo;t really just about finding GIFs. It&rsquo;s a search engine today but soon you&rsquo;ll see it grow into a community, a platform with a host of features targeted at gif artists, enthusiasts, bloggers, and anyone generally looking to discover or create that next big meme.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/giphy-logo.png",
+			"humanURL": "https://giphy.com",
+			"baseURL": "http://api.giphy.com//v1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/giphy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open Bank Project",
+			"x-api-slug": "open-bank-project",
+			"description": "The Open Bank Project is an open source API and App store for banks that empowers financial institutions to securely and rapidly enhance their digital offerings using an ecosystem of 3rd party applications and services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-bank-project.png",
+			"humanURL": "https://openbankproject.com/",
+			"baseURL": "https:////open-banking/v2.0",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/open-bank-project/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Allied Irish Bank",
+			"x-api-slug": "allied-irish-bank",
+			"description": "Allied Irish Banks (AIB) is one of the so-called Big Four commercial banks in Ireland. AIB offers a full range of personal and corporate banking services. AIB Capital Markets is the division of the company that offers international banking and treasury operations. The bank also offers a range of general insurance products such as home, travel, and health insurance. It offers life assurance and pensions through its tied agency with Irish Life Assurance plc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg",
+			"humanURL": "https://aibgb.co.uk/",
+			"baseURL": "https://openapi.aibgb.co.uk/open-banking/v2.1/",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/allied-irish-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayPlug",
+			"x-api-slug": "payplug",
+			"description": "Acceptez les paiements par carte avec PayPlug, solution de paiement en ligne 100% conue pour les PME. Integration simple et rapide, sans frais dinstallation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28299-www-payplug-com.jpg",
+			"humanURL": "https://www.payplug.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payplug/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "equensWorldline",
+			"x-api-slug": "equensworldline",
+			"description": "equensWorldline is the pan-European leader in payments and transactional services. Being part of the Worldline Group, we combine long-standing proven expertise in traditional mass payment systems and innovative e-commerce and mobile payment solutions. With more than 50 years of experience we service a broad, international client base in numerous countries across Europe. Clients rely on our expertise to anticipate European regulatory changes, benefit from transformative technologies, optimize processes, ensure operational excellence and manage risk and fraud. We accelerate our clients&rsquo; time-to-market and digital transformation, allowing them to cater for the shifting needs and increasing demands of their customers. What&rsquo;s more, our unparalleled footprint allows us to achieve economies of scale and synergies, making us a cost-efficient and competitive business partner for seamless, secure and efficient payment solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28340-equensworldline-com.jpg",
+			"humanURL": "https://equensworldline.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/equensworldline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Knox Payments",
+			"x-api-slug": "knox-payments",
+			"description": "Knox connects your bank to merchants so you can pay with your online banking without the merchant getting any of your personal info.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://knoxpayments.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/knox-payments/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jumpseller",
+			"x-api-slug": "jumpseller",
+			"description": "We founded Jumpseller.com in 2009 in Europe  we called it Vendder back then  and released our first version of the Jumpseller product in September 2010. After releasing the product we quickly grew to thousands of customers. In November 2010, we recei...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg",
+			"humanURL": "http://jumpseller.com",
+			"baseURL": "https://api.jumpseller.com//v1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/jumpseller/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NetLicensing",
+			"x-api-slug": "netlicensing",
+			"description": "Labs64 NetLicensing is a first-class solution in the Licensing-as-a-Service (LaaS) sector. Based on open standards, it provides a cost effective, integrated and scalable platform for software vendors and developers who want to concentrate on their product&rsquo;s core functionality instead of spending resources on developing an own license management software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28466-labs64-net-licensing-restful-api-test-center.jpg",
+			"humanURL": "http://netlicensing.io",
+			"baseURL": "https://go.netlicensing.io//core/v2/rest",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/netlicensing/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Open FinTech",
+			"x-api-slug": "open-fintech",
+			"description": "International standards yield technological, economic and social advantages. Standards speed up the development of new applications and simplify the process of communication between the services. Data and service is available under the Open Database License (ODbL). It is an open standard and open data, every player of FinTech market can contribute to development and enhancement. All data is available through Rest API based on JSON API standard.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-fintech-io.png",
+			"humanURL": "http://openfintech.io",
+			"baseURL": "https://api.openfintech.io//v1/",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/open-fintech/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Paylocity",
+			"x-api-slug": "paylocity",
+			"description": "Paylocity has delivered industry-leading software and unmatched customer service since our inception. Our mission of elevating payroll and human resources across the backroom and into the boardroom speaks to just that. Today, Paylocity continues to develop innovative solutions that simplify the lives of payroll and HR professionals across the country. Through powerful analytics, robust reporting, intuitive usability, and modern functionality&mdash;our clients increase efficiency and manage workforces more effectively.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg",
+			"humanURL": "http://www.paylocity.com",
+			"baseURL": "https://api.paylocity.com//api",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paylocity/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Qualpay",
+			"x-api-slug": "qualpay",
+			"description": "We provide an omnichannel payments platform, easily adaptable to individual needs, whether you are a business, a developer or a partner including Independent Sales Organizations (ISO) and Independent Software Vendor (ISV). Our fully-integrated payments platform combines a merchant account with a payment solution and reporting that todays businesses require.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/qualpay.png",
+			"humanURL": "http://qualpay.com",
+			"baseURL": "https://api-test.qualpay.com//pg",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/qualpay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flat",
+			"x-api-slug": "flat",
+			"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png",
+			"humanURL": "http://flat.io",
+			"baseURL": "https://api.flat.io//v2",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/flat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Codefresh",
+			"x-api-slug": "codefresh",
+			"description": "Docker Automation and Collaboration for Agile Teams. Codefresh lets dev, QA and product work together on Docker compositions, including CI/CD, manual testing and feature previews.Codefresh enables you to instantly leverage all the benefits of Docker, w...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg",
+			"humanURL": "https://codefresh.io",
+			"baseURL": "https://g.codefresh.io//api",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/codefresh/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "American Express",
+			"x-api-slug": "american-express",
+			"description": "The American Express Company, also known as Amex, is an American multinational financial services corporation headquartered in Three World Financial Center in New York City.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28740-developer-americanexpress-com.jpg",
+			"humanURL": "https://developer.americanexpress.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/american-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dimebox",
+			"x-api-slug": "dimebox",
+			"description": "Dimebox, based in Amsterdam, was founded in 2014 by experts with proven track-records in the expanding global e-payments industry.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28741-www-dimebox-com.jpg",
+			"humanURL": "https://www.dimebox.com",
+			"baseURL": "https:///",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dimebox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/bookeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"x-api-slug": "broadleaf-commerce",
+			"description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https://www.broadleafcommerce.com",
+			"baseURL": "https://demo.broadleafcommerce.org//api/v1",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/broadleaf-commerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coord",
+			"x-api-slug": "coord",
+			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
+			"humanURL": "https://coord.co",
+			"baseURL": "https://api.coord.co//v1/users",
+			"tags": "Payments",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/coord/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Payments",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "AT&T Dev Program",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Braintree",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/braintree/apis.yaml"
+		},
+		{
+			"name": "Constant Contact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/constant-contact/apis.yaml"
+		},
+		{
+			"name": "Dwolla",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dwolla/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "PayPal",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paypal/apis.yaml"
+		},
+		{
+			"name": "Stripe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/stripe/apis.yaml"
+		},
+		{
+			"name": "Xero",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/apis.yaml"
+		},
+		{
+			"name": "MasterCard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/mastercard/apis.yaml"
+		},
+		{
+			"name": "Authorize.Net",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/authorize-net/apis.yaml"
+		},
+		{
+			"name": "PowerInbox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/powerinbox/apis.yaml"
+		},
+		{
+			"name": "Payvment",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payvment/apis.yaml"
+		},
+		{
+			"name": "Spreedly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/spreedly/apis.yaml"
+		},
+		{
+			"name": "Conferma",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/conferma/apis.yaml"
+		},
+		{
+			"name": "Fortumo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/fortumo/apis.yaml"
+		},
+		{
+			"name": "WePay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/wepay/apis.yaml"
+		},
+		{
+			"name": "Invoicera",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/invoicera/apis.yaml"
+		},
+		{
+			"name": "Payments Gateway",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payments-gateway/apis.yaml"
+		},
+		{
+			"name": "Spree Commerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/spree-commerce/apis.yaml"
+		},
+		{
+			"name": "Chirpify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chirpify/apis.yaml"
+		},
+		{
+			"name": "HostBill",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/hostbill/apis.yaml"
+		},
+		{
+			"name": "Invoicefu",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/invoicefu/apis.yaml"
+		},
+		{
+			"name": "Payfirma",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payfirma/apis.yaml"
+		},
+		{
+			"name": "SecureNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/securenet/apis.yaml"
+		},
+		{
+			"name": "VersaPay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/versapay/apis.yaml"
+		},
+		{
+			"name": "PayAnywhere",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payanywhere/apis.yaml"
+		},
+		{
+			"name": "Finxera",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/finxera/apis.yaml"
+		},
+		{
+			"name": "Merriam-Webster Dictionary",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/merriamwebster-dictionary/apis.yaml"
+		},
+		{
+			"name": "PaybyMe",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paybyme/apis.yaml"
+		},
+		{
+			"name": "Chase Paymentech",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chase-paymentech/apis.yaml"
+		},
+		{
+			"name": "PassKit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/passkit/apis.yaml"
+		},
+		{
+			"name": "PayJunction",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payjunction/apis.yaml"
+		},
+		{
+			"name": "ChargeBee",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chargebee/apis.yaml"
+		},
+		{
+			"name": "Viafoura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/viafoura/apis.yaml"
+		},
+		{
+			"name": "PayLane",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paylane/apis.yaml"
+		},
+		{
+			"name": "Tinypass",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/tinypass/apis.yaml"
+		},
+		{
+			"name": "Ribbon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/ribbon/apis.yaml"
+		},
+		{
+			"name": "Celery",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/celery/apis.yaml"
+		},
+		{
+			"name": "InComm",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/incomm/apis.yaml"
+		},
+		{
+			"name": "2Checkout",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/2checkout/apis.yaml"
+		},
+		{
+			"name": "Adyen",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/adyen/apis.yaml"
+		},
+		{
+			"name": "CardFlight",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/cardflight/apis.yaml"
+		},
+		{
+			"name": "Evo Snap",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/evo-snap/apis.yaml"
+		},
+		{
+			"name": "Judo Payments",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/judo-payments/apis.yaml"
+		},
+		{
+			"name": "Payscape",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payscape/apis.yaml"
+		},
+		{
+			"name": "SlidePay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/slidepay/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Venmo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/apis.yaml"
+		},
+		{
+			"name": "Recurly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/recurly/apis.yaml"
+		},
+		{
+			"name": "Pin Payments",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/pin-payments/apis.yaml"
+		},
+		{
+			"name": "MoneyBird",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/moneybird/apis.yaml"
+		},
+		{
+			"name": "CyberSource",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/cybersource/apis.yaml"
+		},
+		{
+			"name": "PAYMILL",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paymill/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Intuit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/intuit/apis.yaml"
+		},
+		{
+			"name": "BillingOrchard",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/billingorchard/apis.yaml"
+		},
+		{
+			"name": "PayStand.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paystand-com/apis.yaml"
+		},
+		{
+			"name": "Marqeta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/marqeta/apis.yaml"
+		},
+		{
+			"name": "Digital River",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/digital-river/apis.yaml"
+		},
+		{
+			"name": "Taxamo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/taxamo/apis.yaml"
+		},
+		{
+			"name": "Privacy Rights Clearinghouse",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/privacy-rights-clearinghouse/apis.yaml"
+		},
+		{
+			"name": "Alarm.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/alarm-com/apis.yaml"
+		},
+		{
+			"name": "Giphy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/giphy/apis.yaml"
+		},
+		{
+			"name": "Open Bank Project",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/open-bank-project/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Allied Irish Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/allied-irish-bank/apis.yaml"
+		},
+		{
+			"name": "PayPlug",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payplug/apis.yaml"
+		},
+		{
+			"name": "equensWorldline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/equensworldline/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Knox Payments",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/knox-payments/apis.yaml"
+		},
+		{
+			"name": "Jumpseller",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/jumpseller/apis.yaml"
+		},
+		{
+			"name": "NetLicensing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/netlicensing/apis.yaml"
+		},
+		{
+			"name": "Open FinTech",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/open-fintech/apis.yaml"
+		},
+		{
+			"name": "Paylocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/paylocity/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Qualpay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/qualpay/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Flat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/flat/apis.yaml"
+		},
+		{
+			"name": "Codefresh",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/codefresh/apis.yaml"
+		},
+		{
+			"name": "American Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/american-express/apis.yaml"
+		},
+		{
+			"name": "Dimebox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dimebox/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/bookeo/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/broadleaf-commerce/apis.yaml"
+		},
+		{
+			"name": "Coord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/coord/apis.yaml"
+		}
+	]
+}

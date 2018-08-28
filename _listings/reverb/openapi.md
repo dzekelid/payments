@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 1
@@ -72,4 +71,28 @@ paths:
       - Payments
       - Selling
       - Id
----
+  /payment_methods:
+    get:
+      summary: Get Payment Methods
+      description: Get list of payment methods
+      operationId: getPaymentMethods
+      x-api-path-slug: payment-methods-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Payment
+      - Methods
+  /shop/payment_methods:
+    get:
+      summary: Get Shop Payment Methods
+      description: Get accepted payment methods
+      operationId: getShopPaymentMethods
+      x-api-path-slug: shoppayment-methods-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Shop
+      - Payment
+      - Methods

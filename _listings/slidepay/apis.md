@@ -1,27 +1,22 @@
 ---
 name: SlidePay
-description: SlidePay, formerly Cube, is an API that makes it easy for any app to
-  accept credit cards that are processed in person. Integration takes hours, not weeks,
-  and works on any platform or device.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2175_logo.jpg
+x-slug: slidepay
+description: Payment platform APIs. Developers can easily integrate card-not-present
+  and card-present payments into their mobile and web applications.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2175-slidepay.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payment API
-- Mobile
-- Merchant
-- Creditcard
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/slidepay/apis.yaml
+x-alexaRank: "0"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/slidepay/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/slidepay
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/slidepay
 - type: x-github
   url: https://github.com/SlidePay
 - type: x-twitter

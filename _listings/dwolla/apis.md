@@ -1,23 +1,15 @@
 ---
 name: Dwolla
-description: Dwolla provides a free web based software platform which allows users
-  to send, receive, and request funds from any other user. Dwollarsquo;s maximum transaction
-  cost is 25 cents per transaction.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dwolla-logo.png
+x-slug: dwolla
+description: Dwolla???s ACH APIs make it easy to integrate bank transfers. Facilitate
+  ACH payments, or verify customer and bank account information within your platform.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/185-dwolla.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Stack
-- Payments
-- Payments
-- Payment API
-- Finance
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/dwolla/apis.yaml
+x-alexaRank: "106398"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/dwolla/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -27,8 +19,22 @@ x-common:
   url: http://blog.dwolla.com/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/dwolla
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/dwolla
 - type: x-developer
   url: https://developers.dwolla.com/
+- type: x-email
+  url: privacy@dwolla.com
+- type: x-email
+  url: security@dwolla.com
+- type: x-email
+  url: support@dwolla.com
+- type: x-email
+  url: compliance@dwolla.com
+- type: x-email
+  url: disputes@dwolla.com
+- type: x-email
+  url: notices@dwolla.com
 - type: x-github
   url: https://github.com/Dwolla
 - type: x-pricing

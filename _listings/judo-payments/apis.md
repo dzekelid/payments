@@ -1,33 +1,40 @@
 ---
 name: Judo Payments
-description: judo payments provides mobile payment solutions to thousands of businesses
-  across the UK to ensure they never lose a sale. From integrated card payments for
-  mobile apps to providing the tools to build a custom mobile payment system for third
-  parties, judo makes mobile credit and debit card acceptance simple and affordable.
-  Businesses can sign up with judo directly through the website or by consulting one
-  of over 300 certified sales representatives.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2173_logo.jpg
+x-slug: judo-payments
+description: Judopay  Next generation mobile payments for an app experience your customers
+  will love
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2173-judo-payments.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payment API
-- Mobile
-- Merchant
-- Commerce
-- API United Kingdom
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/judo-payments/apis.yaml
+x-alexaRank: "405101"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/judo-payments/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/judo
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/judo
+- type: x-email
+  url: hello@judopay.com
+- type: x-email
+  url: service@judopay.com
+- type: x-email
+  url: Help@Judopay.com
+- type: x-email
+  url: Developersupport@Judopay.com
+- type: x-email
+  url: Emergency@Judopay.com
+- type: x-email
+  url: CustomerSuccess@Judopay.com
+- type: x-email
+  url: Urgent@Judopay.com
 - type: x-twitter
   url: https://twitter.com/JudoPayments
+- type: x-twitter
+  url: https://twitter.com/Judopay
 - type: x-website
   url: https://www.judopay.com/
 include: []

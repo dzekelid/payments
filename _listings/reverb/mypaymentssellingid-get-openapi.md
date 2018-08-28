@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Payments Selling
+  title: Reverb Get My Payments Selling
   description: Get my payments selling.
   termsOfService: https://reverb.com/page/terms
   contact:

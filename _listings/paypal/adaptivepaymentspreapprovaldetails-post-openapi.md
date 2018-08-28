@@ -4,9 +4,8 @@ x-collection-name: PayPal
 x-complete: 0
 info:
   title: Paypal Preapproval Details
-  description: "Use the PreapprovalDetails API operation to obtain information about
-    an agreement between you and a sender for making payments on the sender\u2019s
-    behalf."
+  description: Use the PreapprovalDetails API operation to obtain information about
+    an agreement between you and a sender for making payments on the sender???s behalf.
   version: 1.0.0
 host: svcs.sandbox.paypal.com
 basePath: /
@@ -85,8 +84,8 @@ paths:
   /Permissions/RequestPermissions:
     post:
       summary: Request Permissions
-      description: "Use the RequestPermissions API operation to request permissions
-        to execute API operations on a PayPal account holder\u2019s behalf."
+      description: Use the RequestPermissions API operation to request permissions
+        to execute API operations on a PayPal account holder???s behalf.
       operationId: Permissions.RequestPermissions.post
       x-api-path-slug: permissionsrequestpermissions-post
       responses:
@@ -398,11 +397,54 @@ paths:
   /AdaptivePayments/PreapprovalDetails:
     post:
       summary: Preapproval Details
-      description: "Use the PreapprovalDetails API operation to obtain information
-        about an agreement between you and a sender for making payments on the sender\u2019s
-        behalf."
+      description: Use the PreapprovalDetails API operation to obtain information
+        about an agreement between you and a sender for making payments on the sender???s
+        behalf.
       operationId: AdaptivePayments.PreapprovalDetails.post
       x-api-path-slug: adaptivepaymentspreapprovaldetails-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Payments
+  /AdaptivePayments/Preapproval:
+    post:
+      summary: Preapproval
+      description: 'Use the Preapproval API operation to set up an agreement between
+        yourself and a sender for making payments on the sender???s behalf. You set
+        up a preapprovals for a specific maximum amount over a specific period of
+        time and, optionally, by any of the following constraints: the number of payments,
+        a maximum per-payment amount, a specific day of the week or the month, and
+        whether or not a PIN is required for each payment request.'
+      operationId: AdaptivePayments.Preapproval.post
+      x-api-path-slug: adaptivepaymentspreapproval-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Payments
+  /AdaptivePayments/PaymentDetails:
+    post:
+      summary: Payment Details
+      description: Use the PaymentDetails API operation to obtain information about
+        a payment. You can identify the payment by your tracking ID, the PayPal transaction
+        ID in an IPN message, or the pay key associated with the payment.
+      operationId: AdaptivePayments.PaymentDetails.post
+      x-api-path-slug: adaptivepaymentspaymentdetails-post
+      responses:
+        200:
+          description: OK
+      tags:
+      - Payments
+  /AdaptivePayments/Pay:
+    post:
+      summary: Pay
+      description: Use the Pay API operation to transfer funds from a sender???s PayPal
+        account to one or more receivers??? PayPal accounts. You can use the Pay API
+        operation to make simple payments, chained payments, or parallel payments;
+        these payments can be explicitly approved, preapproved, or implicitly approved.
+      operationId: AdaptivePayments.Pay.post
+      x-api-path-slug: adaptivepaymentspay-post
       responses:
         200:
           description: OK

@@ -1,25 +1,17 @@
 ---
 name: Fortumo
-description: Fortumo, founded in 2007, is the most developer-friendly mobile payments
-  provider. We enable app and game developers to monetize their users through mobile
-  operator billing in more than 80 countries. Wersquo;ve got some pretty cool features
-  like self-service signup and instant activation - as well as seamless payment flow
-  that converts like magic. No wonder that our services are used by some of the most
-  awesome developers around.
-image: ""
+x-slug: fortumo
+description: Fortumo is a digital enablement platform for app stores and digital service
+  providers for user acquisition, monetization and retention. The company connects
+  service providers with more than 350 mobile operators across Asia, Europe, Latin
+  America, the M...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/595-fortumo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Telco
-- Stack Network
-- SMS
-- Payments
-- Payment API
-- Mobile
-- Billing
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/fortumo/apis.yaml
+x-alexaRank: "209629"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/fortumo/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,7 +20,13 @@ x-common:
 - type: x-blog-rss
   url: http://blog.fortumo.com/feed/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/fortumo
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/fortumo
+- type: x-email
+  url: chinabd@fortumo.com
+- type: x-email
+  url: support@fortumo.com
 - type: x-github
   url: https://github.com/fortumo
 - type: x-twitter

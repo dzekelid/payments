@@ -1,33 +1,32 @@
 ---
 name: Payscape
-description: 'Payscape Advisors provides small to mid-size business owners with financial
-  technologies that allow them to accept payments, streamline their business, and
-  increase cash flow. Our dedication to payment technology and industry innovation
-  is consistent; our mission is clear: to make it simple for business owners to collect
-  money. Whether you accept credit cards at your retail storefront, process payments
-  on your mobile phone, promote gift cards, operate an online shopping cart, or electronically
-  invoice clients, Payscape offers financial products and services guaranteed to satisfy
-  your cash flow needs'
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payscape-logo.png
+x-slug: payscape
+description: Financial technology for businesses of all sizes. Our dedication to payment
+  technology is consistent, and our mission clear; to make it simple for business
+  owners to collect payments. Whether you accept credit cards at a storefront, processes
+  payments ...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2174-payscape.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payment API
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/payscape/apis.yaml
+x-alexaRank: "1964009"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payscape/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/payscape-advisors
 - type: x-developer
   url: https://payscape.com/developers/
+- type: x-email
+  url: privacy@payscape.com
 - type: x-github
   url: https://github.com/Payscape
 - type: x-twitter
   url: https://twitter.com/_Payscape
+- type: x-twitter
+  url: https://twitter.com/Payscape
 - type: x-website
   url: https://payscape.com/
 include: []

@@ -1,22 +1,17 @@
 ---
 name: Tinypass
-description: Tinypass is e-commerce software for digital content. Simply put, we take
-  the kind of technology behind The New York Times paywall and the iTunes store and
-  make it available to everybody. Using our service sites of any size can directly
-  charge for content in a variety of ways ??? pay per view, subscriptions, downloads,
-  single purchases, etc. ??? while providing a great user experience.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1589_logo.jpg
+x-slug: tinypass
+description: Piano is a simple yet powerful service that allows any web publisher
+  to easily accept quick and secure payments for access to any type of content.    The
+  Piano platform can process payments as small as two-cents, and doesnt require changing
+  your site...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1589-tinypass.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Target
-- Subscription
-- Stack Network
-- Shopping
-- Payments
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/tinypass/apis.yaml
+x-alexaRank: "548343"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/tinypass/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -26,10 +21,18 @@ x-common:
   url: http://www.tinypass.com/blog/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/tinypass
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/piano-media
+- type: x-email
+  url: jonas.rideout@piano.io
+- type: x-email
+  url: support@piano.io
 - type: x-github
   url: https://github.com/tinypass
 - type: x-twitter
   url: https://twitter.com/tinypass
+- type: x-twitter
+  url: https://twitter.com/piano_io
 include: []
 maintainers:
 - FN: Kin Lane

@@ -7,214 +7,192 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.j
 x-kinRank: "8"
 x-alexaRank: "2158"
 tags: Payments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Clarity Accounting Get Overpayments
-  x-api-slug: clarity-accounting
-  description: Get overpayments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments
-  tags: Overpayments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpayments-get-openapi.md
-- name: Clarity Accounting X-related-model Overpayments
-  x-api-slug: clarity-accounting
-  description: X-related-model overpayments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments
-  tags: Overpayments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpayments-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Overpayments Overpayment
-  x-api-slug: clarity-accounting
-  description: Get overpayments overpayment.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments/{OverpaymentID}
-  tags: Overpayments,OverpaymentID
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpaymentsoverpaymentid-get-openapi.md
-- name: Clarity Accounting X-related-model Overpayments Overpayment
-  x-api-slug: clarity-accounting
-  description: X-related-model overpayments overpayment.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments/{OverpaymentID}
-  tags: Overpayments,OverpaymentID
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpaymentsoverpaymentid-xrelatedmodel-openapi.md
-- name: Clarity Accounting Put Overpayments Overpayment Allocations
-  x-api-slug: clarity-accounting
-  description: Put overpayments overpayment allocations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments/{OverpaymentID}/Allocations
-  tags: Overpayments,OverpaymentID,Ocations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpaymentsoverpaymentidallocations-put-openapi.md
-- name: Clarity Accounting X-related-model Overpayments Overpayment Allocations
-  x-api-slug: clarity-accounting
-  description: X-related-model overpayments overpayment allocations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Overpayments/{OverpaymentID}/Allocations
-  tags: Overpayments,OverpaymentID,Ocations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/overpaymentsoverpaymentidallocations-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Payments
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Payments
+  x-api-slug: payments-get
   description: Get payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments
-  tags: Payments
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/payments-get-openapi.md
-- name: Clarity Accounting Post Payments
-  x-api-slug: clarity-accounting
+- name: Accounting - Post Payments
+  x-api-slug: payments-post
   description: Post payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments
-  tags: Payments
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/payments-post-openapi.md
-- name: Clarity Accounting Put Payments
-  x-api-slug: clarity-accounting
+- name: Accounting - Put Payments
+  x-api-slug: payments-put
   description: Put payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments
-  tags: Payments
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/payments-put-openapi.md
-- name: Clarity Accounting X-related-model Payments
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Payments
+  x-api-slug: payments-xrelatedmodel
   description: X-related-model payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments
-  tags: Payments
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/payments-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Payments Payment
-  x-api-slug: clarity-accounting
+- name: Accounting - Get Payments Payment
+  x-api-slug: paymentspaymentid-get
   description: Get payments payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments/{PaymentID}
-  tags: Payments,PaymentID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-get-openapi.md
-- name: Clarity Accounting Post Payments Payment
-  x-api-slug: clarity-accounting
+- name: Accounting - Post Payments Payment
+  x-api-slug: paymentspaymentid-post
   description: Post payments payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments/{PaymentID}
-  tags: Payments,PaymentID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-post-openapi.md
-- name: Clarity Accounting X-related-model Payments Payment
-  x-api-slug: clarity-accounting
+- name: Accounting - X-related-model Payments Payment
+  x-api-slug: paymentspaymentid-xrelatedmodel
   description: X-related-model payments payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Payments/{PaymentID}
-  tags: Payments,PaymentID
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Prepayments
-  x-api-slug: clarity-accounting
-  description: Get prepayments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments
-  tags: Prepayments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepayments-get-openapi.md
-- name: Clarity Accounting X-related-model Prepayments
-  x-api-slug: clarity-accounting
-  description: X-related-model prepayments.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments
-  tags: Prepayments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepayments-xrelatedmodel-openapi.md
-- name: Clarity Accounting Get Prepayments Prepayment
-  x-api-slug: clarity-accounting
-  description: Get prepayments prepayment.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments/{PrepaymentID}
-  tags: Prepayments,PrepaymentID
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepaymentsprepaymentid-get-openapi.md
-- name: Clarity Accounting X-related-model Prepayments Prepayment
-  x-api-slug: clarity-accounting
-  description: X-related-model prepayments prepayment.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments/{PrepaymentID}
-  tags: Prepayments,PrepaymentID
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepaymentsprepaymentid-xrelatedmodel-openapi.md
-- name: Clarity Accounting Put Prepayments Prepayment Allocations
-  x-api-slug: clarity-accounting
-  description: Put prepayments prepayment allocations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments/{PrepaymentID}/Allocations
-  tags: Prepayments,PrepaymentID,Ocations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepaymentsprepaymentidallocations-put-openapi.md
-- name: Clarity Accounting X-related-model Prepayments Prepayment Allocations
-  x-api-slug: clarity-accounting
-  description: X-related-model prepayments prepayment allocations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
-  humanURL: http://www.xero.com/
-  baseURL: https://api.xero.com//api.xro/2.0//Prepayments/{PrepaymentID}/Allocations
-  tags: Prepayments,PrepaymentID,Ocations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/prepaymentsprepaymentidallocations-xrelatedmodel-openapi.md
-- name: Clarity Accounting
-  x-api-slug: clarity-accounting
-  description: Xero is the QuickBooks alternative. Use Xero accounting software to
-    manage invoicing, bank reconciliation, bookkeeping & more. Start a free trial
-    today!
+- name: Accounting - Get Payments Payment
+  x-api-slug: paymentspaymentid-get
+  description: Get payments payment.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
   humanURL: http://www.xero.com/
   baseURL: https://api.xero.com//api.xro/2.0
-  tags: Payments
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-get-openapi.md
+- name: Accounting - Post Payments Payment
+  x-api-slug: paymentspaymentid-post
+  description: Post payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-post-openapi.md
+- name: Accounting - X-related-model Payments Payment
+  x-api-slug: paymentspaymentid-xrelatedmodel
+  description: X-related-model payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-xrelatedmodel-openapi.md
+- name: Accounting - Get Payments Payment
+  x-api-slug: paymentspaymentid-get
+  description: Get payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-get-openapi.md
+- name: Accounting - Post Payments Payment
+  x-api-slug: paymentspaymentid-post
+  description: Post payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-post-openapi.md
+- name: Accounting - X-related-model Payments Payment
+  x-api-slug: paymentspaymentid-xrelatedmodel
+  description: X-related-model payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-xrelatedmodel-openapi.md
+- name: Accounting - X-related-model Payments Payment
+  x-api-slug: paymentspaymentid-xrelatedmodel
+  description: X-related-model payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-xrelatedmodel-openapi.md
+- name: Accounting - Post Payments Payment
+  x-api-slug: paymentspaymentid-post
+  description: Post payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-post-openapi.md
+- name: Accounting - Get Payments Payment
+  x-api-slug: paymentspaymentid-get
+  description: Get payments payment.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/279-xero.jpg
+  humanURL: http://www.xero.com/
+  baseURL: https://api.xero.com//api.xro/2.0
+  tags: Finance, Accounting, Finance, Accounting, Stack Network, SaaS, Technology,
+    Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/xero/paymentspaymentid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://wordnik.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://xero.stack.network
 - type: x-base
   url: https://api.xero.com
 - type: x-blog

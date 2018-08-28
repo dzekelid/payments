@@ -1,22 +1,15 @@
 ---
 name: ChargeBee
-description: ChargeBee is the Subscription Management and Recurring Billing for SAAS
-  and web applications in the Small and Medium Business space.
-image: ""
+x-slug: chargebee
+description: Chargebee lets you automate your recurring billing, manage subscriptions
+  at scale and access metrics that matter.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1513-chargebee.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Subscription
-- Stack Network
-- Payments
-- Payments
-- Payments
-- Payment API
-- Customer
-- Billing
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/chargebee/apis.yaml
+x-alexaRank: "38714"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/chargebee/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,8 +21,20 @@ x-common:
   url: http://feeds.feedburner.com/ChargeBeeBlog
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/chargebee
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/chargebee
 - type: x-developer
   url: https://apidocs.chargebee.com/docs/api
+- type: x-email
+  url: work@chargebee.com
+- type: x-email
+  url: privacy@chargebee.com
+- type: x-email
+  url: support@chargebee.com
+- type: x-email
+  url: legal@chargebee.com
+- type: x-email
+  url: compliance@chargebee.com
 - type: x-github
   url: https://github.com/chargebee
 - type: x-twitter

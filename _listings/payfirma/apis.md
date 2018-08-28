@@ -1,30 +1,23 @@
 ---
 name: Payfirma
-description: Payfirma develops payment processing applications to enable businesses
-  to accept credit  debit cards in their stores, online and on their mobile devices.
-  We bring enterprise level payment systems to small businesses in a simple package
-  with amazing customer service. Thousands of users, from small business to multi-national
-  corporations, use Payfirma???s financial technologies to make payments simpler.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/payfirma-logo.jpeg
+x-slug: payfirma
+description: Payfirma is your one-stop merchant services partner for secure credit
+  card processing. We offer one solution that lets you take payments any way your
+  customers want to pay.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1111-payfirma.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Payments
-- Payments
-- Payments
-- Payment API
-- JavaScript
-- Credit
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/payfirma/apis.yaml
+x-alexaRank: "806093"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/payfirma/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
 - type: x-base
   url: https://ecom.payfirma.com/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/payfirma-corporation
 - type: x-developer
   url: http://developers.payfirma.com/
 - type: x-email

@@ -17,53 +17,104 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Payments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/apis.md
 specificationVersion: "0.14"
 apis:
-- name: reverb Get My Payments Selling
-  x-api-slug: reverb
+- name: reverb - Get My Payments Selling
+  x-api-slug: mypaymentsselling-get
   description: Get my payments selling.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
-  humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/payments/selling
-  tags: My,Payments,Selling
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/mypaymentsselling-get-openapi.md
-- name: reverb Get My Payments Selling
-  x-api-slug: reverb
-  description: Get my payments selling.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
-  humanURL: https://helloreverb.com/app
-  baseURL: https://api.reverb.com//api//my/payments/selling/{id}
-  tags: My,Payments,Selling,Id
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/mypaymentssellingid-get-openapi.md
-- name: reverb
-  x-api-slug: reverb
-  description: 'Reverb&#8217;s mission is to connect people with meaningful content.Reverb
-    was created to find and connect the rich associations between words, ideas, content,
-    and people. Through our products, we enhance broader knowledge around favorite
-    topics by surfacing interesting information readers might not uncover on their
-    own. We make tools for content understanding at every level from the single word
-    on up. Wordnik: Get a full view of any word you???re interested in, with definitions,
-    example sentences, related words, tweets from Twitter, pictures from Flickr, and
-    much more.Reverb for Publishers: Reverb for Publishers brings relevant content
-    to web audiences and surfaces additional content for publishers.Reverb for Developers:
-    Reverb is committed to the open-source community and is proudly contributing infrastructure
-    software to power applications and enterprises both small and gigantic. Our involvement
-    with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
   humanURL: https://helloreverb.com/app
   baseURL: https://api.reverb.com//api
-  tags: Payments
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/mypaymentsselling-get-openapi.md
+- name: reverb - Get My Payments Selling
+  x-api-slug: mypaymentssellingid-get
+  description: Get my payments selling.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/mypaymentssellingid-get-openapi.md
+- name: reverb - Get Payment Methods
+  x-api-slug: payment-methods-get
+  description: Get list of payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/payment-methods-get-openapi.md
+- name: reverb - Get Shop Payment Methods
+  x-api-slug: shoppayment-methods-get
+  description: Get accepted payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/shoppayment-methods-get-openapi.md
+- name: reverb - Get Payment Methods
+  x-api-slug: payment-methods-get
+  description: Get list of payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/payment-methods-get-openapi.md
+- name: reverb - Get Shop Payment Methods
+  x-api-slug: shoppayment-methods-get
+  description: Get accepted payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/shoppayment-methods-get-openapi.md
+- name: reverb - Get Shop Payment Methods
+  x-api-slug: shoppayment-methods-get
+  description: Get accepted payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/shoppayment-methods-get-openapi.md
+- name: reverb - Get Payment Methods
+  x-api-slug: payment-methods-get
+  description: Get list of payment methods
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png
+  humanURL: https://helloreverb.com/app
+  baseURL: https://api.reverb.com//api
+  tags: Dictionary, Spelling, API LIfeyclessss, Stack Network, Commerce, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/reverb/payment-methods-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://respoke.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://reverb.stack.network
 - type: x-blog
   url: http://blog.helloreverb.com/
 - type: x-blog-rss
@@ -78,6 +129,8 @@ x-common:
   url: https://helloreverb.com/app
 - type: x-website
   url: http://reverb.com
+- type: x-website
+  url: https://reverb.com
 include: []
 maintainers:
 - FN: Kin Lane

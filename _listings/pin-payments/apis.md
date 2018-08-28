@@ -1,24 +1,17 @@
 ---
 name: Pin Payments
+x-slug: pin-payments
 description: An all-in-one developer API for accepting credit card payments online
-  in multiple currencies. Through integrations with key e-commerce amp; business platforms
-  (https://pin.net.au/partners) Pin Payments also enables small businesses to start
-  accepting payments online quickly amp; easily.
+  in multiple currencies. Through integrations with key e-commerce &amp; business
+  platforms (https://pin.net.au/partners) Pin Payments also enables small businesses
+  to start accepting payments online quickly &amp; easily.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/2179_logo.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payments
-- Payment API
-- Finance
-- Debit
-- Credit
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/pin-payments/apis.yaml
+x-alexaRank: "0"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/pin-payments/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

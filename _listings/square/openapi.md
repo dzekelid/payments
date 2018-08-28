@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Square
 x-complete: 1
@@ -88,4 +87,62 @@ paths:
       - Inclusive
       - Exclusive
       - Dates
----
+  /v1/{location_id}/payments/{payment_id}:
+    get:
+      summary: Provides comprehensive information for a single payment.
+      description: Provides comprehensive information for a single payment.
+      operationId: RetrievePayment
+      x-api-path-slug: v1location-idpaymentspayment-id-get
+      parameters:
+      - in: path
+        name: location_id
+        description: The ID of the payments associated location
+      - in: path
+        name: payment_id
+        description: The payments Square-issued ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Provides
+      - Comprehensive
+      - Informationa
+      - Single
+      - Payment
+  /v1/{location_id}/refunds:
+    post:
+      summary: Issues a refund for a previously processed payment. You must issue
+        a refund within 60 days of the associated payment.
+      description: Issues a refund for a previously processed payment. You must issue
+        a refund within 60 days of the associated payment.
+      operationId: v1.location_id.refunds.post
+      x-api-path-slug: v1location-idrefunds-post
+      parameters:
+      - in: body
+        name: body
+        description: An object containing the fields to POST for the request
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: location_id
+        description: The ID of the original payments associated location
+      responses:
+        200:
+          description: OK
+      tags:
+      - Issues
+      - Refunda
+      - Previously
+      - Processed
+      - Payment
+      - ""
+      - You
+      - Must
+      - Issue
+      - Refund
+      - Within
+      - "60"
+      - Days
+      - Of
+      - Associated
+      - Payment

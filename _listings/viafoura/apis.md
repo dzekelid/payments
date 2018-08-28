@@ -1,25 +1,16 @@
 ---
 name: Viafoura
-description: Viafoura is the leading audience engagement and social monetization platform
-  for premier digital publishers. Our platform adds advanced social functionality
-  to large news and entertainment websites and their mobile applications. Through
-  the power of conversation, curation and reward mechanics, our technology builds
-  community and drives key performance metrics such as page views, length of visit,
-  social shares, return visits, user contributions and revenue.nnThe Viafoura platform
-  runs as a series of widgets that drop seamlessly into a client???s user experience,
-  accessorizing their premium content with our user engagement functionality. Viafoura
-  is offered as a software-as-a-service (SaaS)
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1530_logo.jpg
+x-slug: viafoura
+description: Experience the market-leading Viafoura audience engagement and development
+  platform. Offering media, broadcast and entertainment brands user registration,
+  comment moderation, analytics, push notifications and more.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1530-viafoura.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Social
-- Payments
-- Monetization
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/viafoura/apis.yaml
+x-alexaRank: "1280216"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/viafoura/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,9 +19,13 @@ x-common:
 - type: x-blog
   url: http://viafoura.com/blog
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/viafoura
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/viafoura
 - type: x-developer
   url: http://documentation.viafoura.com/
+- type: x-email
+  url: privacy@viafoura.com
 - type: x-github
   url: https://github.com/viafoura
 - type: x-twitter

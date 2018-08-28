@@ -1,23 +1,15 @@
 ---
 name: Spreedly
-description: Spreedly is a cloud based credit card vault that allows you to work with
-  one or multiple payment gateways over time or simultaneously. Dramatically reduce
-  your PCI compliance scope, work with the worldrsquo;s payment gateways and add on
-  newer payment types like Dwolla and GoCardless.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/486_logo.png
+x-slug: spreedly
+description: For online merchants and marketplaces, our API provides simple and secure
+  PCI compliance, credit card vault and forwarding of online payments. Try for free.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/486-spreedly.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- SaaS
-- Payments
-- Payments
-- Payments
-- Payment API
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/spreedly/apis.yaml
+x-alexaRank: "336741"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/spreedly/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -28,9 +20,15 @@ x-common:
 - type: x-blog-rss
   url: http://feeds.feedburner.com/spreedly-blog
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/spreedly
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/spreedly
 - type: x-developer
   url: https://docs.spreedly.com/
+- type: x-email
+  url: support@spreedly.com
+- type: x-email
+  url: success@spreedly.com
 - type: x-github
   url: https://github.com/spreedly
 - type: x-pricing

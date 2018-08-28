@@ -1,29 +1,15 @@
 ---
 name: Braintree
-description: A catalyst for the next generation of commerce, Braintree provides the
-  easiest way to pay and get paid across any device. Braintreersquo;s global payment
-  platform processes more than $10 billion annually (with more than $2 billion on
-  mobile) for thousands of online and mobile commerce innovators including Airbnb,
-  Fab, LivingSocial, OpenTable and Uber. Merchants in more than 40 countries throughout
-  North America, Europe and Australia can accept payments in more than 130 currencies
-  using Braintree. Today, Braintree powers single-click purchasing for more than 40
-  million consumers and its top-rated mobile app, Venmo, gives people an easy way
-  to pay using their mobile device.nbsp;
-image: https://gravatar.com/avatar/1ccf920aea5d30fdab9851becedc726e?d=https%3A%2F%2Fidenticons.github.com%2Ff356355c1634839cf42769e7f30905a3.pngu0026r=x
+x-slug: braintree
+description: An all-in-one solution to accept, process, and split payments in your
+  mobile app or online -- from small business to large enterprise.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/163-braintree.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Payments
-- Payments
-- Payment API
-- Payment
-- Chicago
-- Billing
-- API LIfeycle
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/braintree/apis.yaml
+x-alexaRank: "31285"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/braintree/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -33,11 +19,31 @@ x-common:
   url: https://www.braintreepayments.com/blog/rss/
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/braintree-payment-solutions
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/braintree-payment-solutions
+- type: x-email
+  url: sales@braintreepayments.com
+- type: x-email
+  url: accounts@braintreepayments.com
+- type: x-email
+  url: general_inquiries@braintreepayments.com
+- type: x-email
+  url: partnerships@braintreepayments.com
+- type: x-email
+  url: info@braintreepayments.com
+- type: x-email
+  url: partners@braintreepayments.com
+- type: x-email
+  url: eusalessupport@braintreepayments.com
+- type: x-email
+  url: australia@braintreepayments.com
+- type: x-email
+  url: apacsales@braintreepayments.com
+- type: x-email
+  url: newzealand@braintreepayments.com
 - type: x-github
   url: https://github.com/braintree
 - type: x-pricing
-  url: https://www.braintreepayments.com/braintree-pricing
-- type: x-pricing--show-2
   url: https://www.braintreepayments.com/braintree-pricing
 - type: x-twitter
   url: https://twitter.com/braintree

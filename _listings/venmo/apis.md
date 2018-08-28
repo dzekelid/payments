@@ -8,61 +8,60 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo
 x-kinRank: "8"
 x-alexaRank: "3421"
 tags: Payments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Venmo API Get Payments
-  x-api-slug: venmo-api
+- name: Venmo API - Get Payments
+  x-api-slug: payments-get
   description: Get payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
   humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1//payments
-  tags: Payments
+  baseURL: https://api.venmo.com//v1
+  tags: Payments, Social, API LIfeyclessss, Getting Started Example, Stack Network,
+    Technology, Mobile, internet, Financial Services, Payments, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-get-openapi.md
-- name: Venmo API Post Payments
-  x-api-slug: venmo-api
+- name: Venmo API - Post Payments
+  x-api-slug: payments-post
   description: Post payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
   humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1//payments
-  tags: Payments
+  baseURL: https://api.venmo.com//v1
+  tags: Payments, Social, API LIfeyclessss, Getting Started Example, Stack Network,
+    Technology, Mobile, internet, Financial Services, Payments, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/payments-post-openapi.md
-- name: Venmo API Get Payments
-  x-api-slug: venmo-api
+- name: Venmo API - Get Payments
+  x-api-slug: paymentsid-get
   description: Get payments.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
   humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1//payments/{id}
-  tags: Payments,Id
+  baseURL: https://api.venmo.com//v1
+  tags: Payments, Social, API LIfeyclessss, Getting Started Example, Stack Network,
+    Technology, Mobile, internet, Financial Services, Payments, Service API, Relative
+    Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/paymentsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/paymentsid-get-openapi.md
-- name: Venmo API
-  x-api-slug: venmo-api
-  description: The Venmo API provides developers a straightforward way to integrate
-    Venmo into their applications.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
-  humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1
-  tags: Payments
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/venmo/openapi.md
 x-common:
 - type: x-android-sdk
   url: https://github.com/venmo/app-switch-android
+- type: x-api-gallery
+  url: http://uservoice.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://venmo.stack.network
 - type: x-authentication
   url: https://developer.venmo.com/docs/authentication
 - type: x-blog

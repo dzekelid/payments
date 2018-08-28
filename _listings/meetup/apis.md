@@ -7,36 +7,61 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Payments
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Meetup Event Payments
-  x-api-slug: meetup
+- name: Meetup - Event Payments
+  x-api-slug: urlnameeventsidpayments-post
   description: Allows organizers of a group to note payments made by members for an
     event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
     pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
     for paid events
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////:urlname/events/:id/payments
-  tags: Events,Payments
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlnameeventsidpayments-post-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
+- name: Meetup - Event Payments
+  x-api-slug: urlnameeventsidpayments-post
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
   humanURL: http://meetup.com
   baseURL: https://api.meetup.com//
-  tags: Payments
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlnameeventsidpayments-post-openapi.md
+- name: Meetup - Event Payments
+  x-api-slug: urlnameeventsidpayments-post
+  description: Allows organizers of a group to note payments made by members for an
+    event. This is the 'Mark Paid' feature seen in the RSVP listings on event details
+    pages and affects the 'pay_status' response fields in [2/rsvps](/meetup_api/docs/2/rsvps/#response)
+    for paid events
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
+  humanURL: http://meetup.com
+  baseURL: https://api.meetup.com//
+  tags: Meetups, Events, My API Stack, Stack Network, Stack, Media, Marketplace, internet,
+    API Provider, API Service Provider, Profiles, General Data, Relative Data, Service
+    API, Pedestal, Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/meetup/urlnameeventsidpayments-post-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://medium.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://meetup.stack.network
 - type: x-base
   url: http://api.meetup.com
 - type: x-crunchbase

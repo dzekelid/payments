@@ -1,27 +1,16 @@
 ---
 name: Invoicera
-description: Invoicera is an out-of-the-edge online application that takes over the
-  traditional paper-and-pen billing system and ldquo;internetizesrdquo; it! It is
-  a smart, easy, and fortified e-way of sending invoices to your clients. With Invoicera,
-  you can send professional looking online bills to your clients and can receive payment
-  the same way. So if you have a huge clientele spreading from North to South Pole,
-  just donrsquo;t ask for their postal address! Send them professional-looking invoices
-  through Invoicera and receive timely payments.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/invoicera-logo.jpg
+x-slug: invoicera
+description: Online invoicing & billing software - online invoices, subscription billing
+  &  online payments. Best online invoicing software for SaaS companies, businesses
+  & enterprises.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/822-invoicera.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Shopping
-- Payments
-- Payments
-- Payments
-- Payment API
-- Invoicing
-created: "2018-02-25"
-modified: "2018-02-25"
-url: https://raw.githubusercontent.com/streamdata-gallery/payments/master/_listings/invoicera/apis.yaml
+x-alexaRank: "437512"
+tags: Payments
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/payments/master/_listings/invoicera/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
@@ -30,9 +19,17 @@ x-common:
 - type: x-blog-rss
   url: http://feeds.feedburner.com/invoicera
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/product/invoicera
+- type: x-crunchbase
   url: http://www.crunchbase.com/product/invoicera
 - type: x-developer
   url: http://www.invoicera.com/api/
+- type: x-email
+  url: marketing@invoicera.com
+- type: x-email
+  url: support@invoicera.com
+- type: x-email
+  url: sales@invoicera.com
 - type: x-github
   url: https://github.com/Invoicera
 - type: x-pricing
